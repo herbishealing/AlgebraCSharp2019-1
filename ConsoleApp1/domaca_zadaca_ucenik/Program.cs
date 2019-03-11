@@ -26,7 +26,7 @@ namespace domaca_zadaca_ucenik
                 listaUcenika.ForEach(Ucenik => IspisUcenika(Ucenik));
 
             Console.WriteLine("\nkonacno stanje:\n");
-
+            
                 listaUcenika.ForEach(Ucenik => IspisUcenika2(Ucenik));
 
             
