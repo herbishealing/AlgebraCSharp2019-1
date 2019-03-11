@@ -1,4 +1,8 @@
-﻿namespace domaca_zadaca_ucenik
+﻿using System;
+
+
+
+namespace domaca_zadaca_ucenik
 {
      class Ucenik
     {
@@ -26,8 +30,8 @@
         }
 
 
-        private string racun;
-        public string Racun
+        private int racun;
+        public int Racun
         {
             get { return racun; }
             set { racun = value; }
@@ -45,14 +49,22 @@
 
         public override string ToString()
         {
-            return "Pozdrav" + "Ucenik" + ime + prezime + racun;
-        }
+            return base.ToString() + ": " + "Pozdrav" + " " + "Ucenik" + ime + prezime + racun;
+         }
 
+        public int KonStanje
+        {
+            get { int konStanje = this.Racun;
+                return konStanje - 500;
+            }
+        }
 
         #endregion
         #region konstruktori
 
-        public Ucenik() { }
+        public Ucenik()
+        {
+        }
 
         public Ucenik(string ime, string prezime)
         {
@@ -66,7 +78,7 @@
             this.OIB = oib;
         }
 
-        public Ucenik (string ime, string prezime, string oib, string racun)
+        public Ucenik (string ime, string prezime, string oib, int racun)
             :this(ime, prezime,oib)
         {
             this.Racun = racun;
