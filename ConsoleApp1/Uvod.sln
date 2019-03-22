@@ -122,6 +122,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.1.3_radnik", "8.1.3_radni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domaca_zadaca_ucenik", "domaca_zadaca_ucenik\domaca_zadaca_ucenik.csproj", "{CD383EC0-72F0-4872-8D40-1D7EA9FEEBFD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vjezba__", "vjezba__", "{9C7C5AE9-2044-4FEE-8220-2B14B8F96A73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vjezba_1", "vjezba_1\vjezba_1.csproj", "{8538F939-6A68-44A6-A643-6325848C3FA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -324,6 +328,10 @@ Global
 		{CD383EC0-72F0-4872-8D40-1D7EA9FEEBFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD383EC0-72F0-4872-8D40-1D7EA9FEEBFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD383EC0-72F0-4872-8D40-1D7EA9FEEBFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8538F939-6A68-44A6-A643-6325848C3FA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8538F939-6A68-44A6-A643-6325848C3FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8538F939-6A68-44A6-A643-6325848C3FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8538F939-6A68-44A6-A643-6325848C3FA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -376,6 +384,7 @@ Global
 		{99D30BC7-38A0-4642-AAEA-F02657D9CF2C} = {49BCF314-C639-46AB-B4DA-B6382D59173F}
 		{527C7420-964A-464D-9394-04A0D8B3E6A4} = {49BCF314-C639-46AB-B4DA-B6382D59173F}
 		{CD383EC0-72F0-4872-8D40-1D7EA9FEEBFD} = {49BCF314-C639-46AB-B4DA-B6382D59173F}
+		{8538F939-6A68-44A6-A643-6325848C3FA2} = {9C7C5AE9-2044-4FEE-8220-2B14B8F96A73}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75EC4551-BDDA-44DC-B093-1C3F4BA400C8}
